@@ -1,0 +1,8 @@
+{
+  "document_type": "attestation_assurance",
+
+  "sub_type": "accidents_de_la_vie",
+
+  "min_confidence": 0.8,
+  "min_sub_confidence": 0.8
+}

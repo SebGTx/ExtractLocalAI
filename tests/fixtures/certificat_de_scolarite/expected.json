@@ -1,0 +1,11 @@
+{
+  "document_type": "certificat_de_scolarite",
+  "min_confidence": 0.8,
+
+  "required_fields": [
+    "ecole",
+    "eleve",
+    "annee_scolaire",
+    "date_certificat"
+  ]
+}

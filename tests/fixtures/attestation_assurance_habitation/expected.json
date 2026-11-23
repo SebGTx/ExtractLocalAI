@@ -1,0 +1,15 @@
+{
+  "document_type": "attestation_assurance",
+
+  "sub_type": "habitation",
+
+  "min_confidence": 0.8,
+  "min_sub_confidence": 0.8,
+
+  "required_fields": [
+    "assureur",
+    "lieu_assure",
+    "date_attestation",
+    "date_debut"
+  ]
+}

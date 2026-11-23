@@ -1,0 +1,6 @@
+{
+  "document_type": "avis_echeance",
+
+  "min_confidence": 0.8,
+  "min_sub_confidence": 0.8
+}

@@ -1,0 +1,14 @@
+{
+  "document_type": "carte_nationale_identite",
+  "min_confidence": 0.8,
+
+  "required_fields": [
+    "numero_carte_identite",
+    "nom",
+    "prenoms",
+    "sexe",
+    "date_de_naissance",
+    "lieu_de_naissance",
+    "nationalite"
+  ]
+}

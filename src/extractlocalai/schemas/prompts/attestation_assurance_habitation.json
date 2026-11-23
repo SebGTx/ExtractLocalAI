@@ -1,0 +1,37 @@
+{
+  "_file": "schemas/prompts/attestation_assurance_habitation.json",
+  "document_type": "attestation_assurance_habitation",
+  "prompt": "Tu es un expert en assurance français. Extrais les informations de l'attestation d'assurance.",
+  "schema": {
+    "data": {
+      "assureur": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "assure": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "lieu_assure": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "date_attestation": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "date_debut": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "date_fin": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "garantie": {
+        "value": "",
+        "confidence": 0.0
+      }
+    }
+  }
+}

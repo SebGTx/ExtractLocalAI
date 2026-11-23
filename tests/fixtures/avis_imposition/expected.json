@@ -1,0 +1,12 @@
+{
+  "document_type": "avis_imposition",
+  "min_confidence": 0.8,
+
+  "required_fields": [
+    "numero_fiscal",
+    "revenu_fiscal_reference",
+    "nombre_de_parts",
+    "date_avis",
+    "annee_revenus"
+  ]
+}

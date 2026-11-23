@@ -1,0 +1,42 @@
+[project]
+name = "extractlocalai"
+version = "0.1.0"
+description = "Reconnaissance de document et extraction de donnees via IA"
+readme = "README.md"
+authors = [
+    { name = "SebGTx", email = "sebastien.gellet@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "docling>=2.151.1",
+    "fastapi>=0.165.0",
+    "httpx>=0.28.1",
+    "ollama>=0.6.3",
+    "pydantic>=2.14.4",
+    "pydantic-settings>=2.16.3",
+    "pymupdf>=2.1",
+    "pypdf>=7.1.1",
+    "python-multipart>=0.0.34",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+extractlocalai = "extractlocalai:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.5.0",
+    "ruff>=0.17.6",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+asyncio_default_fixture_loop_scope = "function"
+filterwarnings = [
+    "ignore::DeprecationWarning"
+]

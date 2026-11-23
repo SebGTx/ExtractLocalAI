@@ -1,0 +1,10 @@
+{
+  "document_type": "rib",
+  "min_confidence": 0.8,
+
+  "required_fields": [
+    "iban",
+    "bic",
+    "titulaire"
+  ]
+}

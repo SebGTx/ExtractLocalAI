@@ -1,0 +1,37 @@
+{
+  "_file": "schemas/prompts/carte_nationale_identite.json",
+  "document_type": "carte_nationale_identite",
+  "prompt": "Tu es un expert français de la préfécture. Extrais les informations de la carte d'identité.",
+  "schema": {
+    "data": {
+      "numero_carte_identite": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "nom": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "prenoms": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "sexe": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "date_de_naissance": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "lieu_de_naissance": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "nationalite": {
+        "value": "",
+        "confidence": 0.0
+      }
+    }
+  }
+}

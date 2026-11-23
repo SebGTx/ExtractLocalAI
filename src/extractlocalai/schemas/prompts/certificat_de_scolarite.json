@@ -1,0 +1,29 @@
+{
+  "_file": "schemas/prompts/certificat_de_scolarite.json",
+  "document_type": "certificat_de_scolarite",
+  "prompt": "Tu es un expert français de l'éducation nationale. Extrais les informations du certificat de scolarité.",
+  "schema": {
+    "data": {
+      "ecole": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "eleve": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "annee_scolaire": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "date_certificat": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "etude": {
+        "value": "",
+        "confidence": 0.0
+      }
+    }
+  }
+}

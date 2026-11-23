@@ -1,0 +1,11 @@
+{
+  "document_type": "bulletin_de_paie",
+  "min_confidence": 0.8,
+
+  "required_fields": [
+    "nom",
+    "employeur",
+    "periode_paie",
+    "net_a_payer"
+  ]
+}

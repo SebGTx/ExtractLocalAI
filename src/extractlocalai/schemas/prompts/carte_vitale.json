@@ -1,0 +1,25 @@
+{
+  "_file": "schemas/prompts/carte_vitale.json",
+  "document_type": "carte_vitale",
+  "prompt": "Tu es un expert français de la sécurité sociale. Extrais les informations de la carte vitale.",
+  "schema": {
+    "data": {
+      "numero_securite_sociale": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "date_emission": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "nom": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "prenom": {
+        "value": "",
+        "confidence": 0.0
+      }
+    }
+  }
+}

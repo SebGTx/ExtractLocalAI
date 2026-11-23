@@ -1,0 +1,25 @@
+{
+  "_file": "schemas/prompts/bulletin_de_paie.json",
+  "document_type": "bulletin_de_paie",
+  "prompt": "Tu es un expert RH français. Extrais les informations du bulletin de paie.",
+  "schema": {
+    "data": {
+      "nom": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "employeur": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "periode_paie": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "net_a_payer": {
+        "value": "",
+        "confidence": 0.0
+      }
+    }
+  }
+}

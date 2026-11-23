@@ -1,0 +1,11 @@
+{
+  "document_type": "facture",
+  "min_confidence": 0.8,
+
+  "required_fields": [
+    "numero_facture",
+    "date_facture",
+    "fournisseur",
+    "montant_ttc"
+  ]
+}

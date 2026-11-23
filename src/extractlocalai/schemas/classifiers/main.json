@@ -1,0 +1,21 @@
+{
+  "_file": "schemas/classifiers/main.json",
+  "document_types": [
+    "rib",
+    "facture",
+    "bulletin_de_paie",
+    "contrat",
+    "avis_imposition",
+    "avis_echeance",
+    "justificatif_domicile",
+    "carte_nationale_identite",
+    "passeport",
+    "carte_vitale",
+    "attestation_assurance",
+    "inconnu"
+  ],
+  "response": {
+    "document_type": "",
+    "confidence": 0.0
+  }
+}

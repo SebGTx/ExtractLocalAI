@@ -1,0 +1,25 @@
+{
+  "_file": "schemas/prompts/facture.json",
+  "document_type": "facture",
+  "prompt": "Tu es un expert comptable français. Extrais les informations de la facture.",
+  "schema": {
+    "data": {
+      "numero_facture": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "date_facture": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "fournisseur": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "montant_ttc": {
+        "value": "",
+        "confidence": 0.0
+      }
+    }
+  }
+}

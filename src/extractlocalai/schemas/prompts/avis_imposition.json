@@ -1,0 +1,29 @@
+{
+  "_file": "schemas/prompts/avis_imposition.json",
+  "document_type": "avis_imposition",
+  "prompt": "Tu es un expert en fiscalité français. Extrais les informations de l'avis d'imposition.",
+  "schema": {
+    "data": {
+      "numero_fiscal": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "revenu_fiscal_reference": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "nombre_de_parts": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "date_avis": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "annee_revenus": {
+        "value": "",
+        "confidence": 0.0
+      }
+    }
+  }
+}

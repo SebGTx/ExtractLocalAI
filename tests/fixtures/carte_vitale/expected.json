@@ -1,0 +1,11 @@
+{
+  "document_type": "carte_vitale",
+  "min_confidence": 0.8,
+
+  "required_fields": [
+    "numero_securite_sociale",
+    "date_emission",
+    "nom",
+    "prenom"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "_file": "schemas/prompts/rib.json",
+  "document_type": "rib",
+  "prompt": "Tu es un expert bancaire français. Extrais les informations du RIB.",
+  "schema": {
+    "data": {
+      "iban": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "bic": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "titulaire": {
+        "value": "",
+        "confidence": 0.0
+      }
+    }
+  }
+}
+
